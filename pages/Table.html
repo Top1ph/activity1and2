@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../csss/../custom.css">
+</head>
+<body>
+    <!--STARTING HEADER-->
+    <header>
+        <h1>COLLEGE OF INFORMATION AND COMPUTING SCINECE</h1>
+        <h3>Bacholor of Science in Informayion System</h3>
+        <div class="container">
+            <a href="../pages/Table.html">Home</a> |
+            <a href="About.html">About</a> |
+            <a href="contactUs.html">Contact Us</a> |
+            <a href="inquiry.html">Inquiry</a> |
+            <a href="profile.html">Profile</a> |
+        </div>
+    </header>
+    <!--ENDING HEADER-->
+    <!--STARTING SECTOIN-->
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="heading.html">Heading </a></li>
+                <li><a href="Table.html">Tables</a></li>
+                <li><a href="list.html">HTML List</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="">Images</a></li>
+
+            
+            </ul>
+        </nav>
+        <article>
+            <h2>Table Format HTML </h2>
+            <p align="justify">This is the Sample Table Context</p>
+
+            <!--TABLE STARt-->
+            <table border="1" class="table_data" >
+                <colgroup>
+                 <col style="width:40%;">
+                 <col style="width:30%;">
+                 <col style="width:30%;">
+                </colgroup>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>price</th>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>Electronics</td>
+                    <td>$900</td>
+                </tr>
+                <tr>
+                    <td>Iphone</td>
+                    <td>Electronics</td>
+                    <td>$900</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>Electronics</td>
+                    <td>$900</td>
+                </tr>
+            </table>
+            <!--TABLE END-->
+            <!--TABLE WITH HEAD TBODY AND TFOOT-->
+    <p>THIS IS FOR THE TABLE STRUCRE WITH HEAD,TBODY AND TFOOT</p>
+    <table border="1">
+        <figcaption><b>Table 1. </b>This is the sample data of a table</figcaption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+             <td rowspan="3">JHON ERIC</td>
+             <td>20</td>
+             <td>BSIS 2A</td>
+            </tr>
+
+            <tr>
+             <td>20</td>
+             <td>BSIS 2A</td>
+             </tr>
+              <tr>
+                <td>20</td>
+                <td>BSIS 2A</td>
+              </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2"><small><b>Information</b></small></td>
+                <td><small>Info</small></td>
+               
+            </tr>
+        </tfoot>
+    </table>
+                 <!--NESTED TABLES-->
+                 <h3><b>Nested Table</b></h3>
+                 <table border="1">
+                        <thead>
+                            <tr>
+                                <th colspan="3">Contentof a table</th>
+                            </tr>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jordan Shoes
+                                    <table border="1">
+                                        <tr>
+                                           <th>Brand</th>
+                                           <th>Color</th>
+                                        </tr>
+                                        <tbody>
+                                            <tr>
+                                                <td>42</td>
+                                                <td>white</td>
+                                            </tr>
+                                            <tbody>
+                                                <tr>
+                                                    <td>39</td>
+                                                    <td>black</td>
+                                                </tr>
+                                            </tbody>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>34</td>
+                                <td>$2300</td>
+                            </tr>
+                            <tr>
+                                <td>Adidas Shoes</td>
+                                <td>32</td>
+                                <td>$2500</td>
+                            </tr>
+                            <tr>
+                                <td>Nike Shoes</td>
+                                <td>32</td>
+                                <td>$2900</td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                 </table>
+                  
+        </article>
+    </section>
+    <!--END SECTION-->
+    
+    <!--START FOOTER-->
+    <footer>
+        <h2>MarSU</h2>
+        <div class="footer_menu"> |
+            <a href="About.html">About</a> |
+            <a href="">Policy</a> |
+            <a href="">Terms of Use</a> |
+            <a href=""> Privacy</a> |
+            <a href="">FAQ</a> |
+            <a href="contactUs.html">Contact</a> 
+
+        </div>
+        <div>
+            <p><b>Copyright &copy 2024. </b> MarSU STA Cruz Compus, BSIS Student</p>
+        </div>
+    </footer>
+    <!--END FOOTER-->
+    
+
+</body>
+</html>
